@@ -18,7 +18,7 @@ const Header = () => {
         <div className='px-4'>
           <Link href='/'>
             <h1 className={`${playFairDisplay.className} text-2xl`}>
-              Medi<span className='text-primary-green text-[35px]'>Q</span>uest
+              Medi<span className='text-[35px] text-primary-green'>Q</span>uest
             </h1>
           </Link>
         </div>
@@ -47,7 +47,7 @@ const Header = () => {
             className='text-primary-green max-md:hidden'
           />
           <IoMenuSharp
-            className='text-primary-green hidden max-md:block'
+            className='hidden text-primary-green max-md:block'
             size={35}
             onClick={() => setIsMenuOpen(true)}
           />
