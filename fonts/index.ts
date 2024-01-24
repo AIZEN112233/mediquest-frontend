@@ -7,5 +7,5 @@ export const playFairDisplay = Playfair_Display({
 
 export const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
+  weight: ["300", "400", "500", "600"],
 });
